@@ -9,4 +9,5 @@ def countdown (count)
 end
   
   def countdown_while_sleep(countdown)
-    
+    sleep(1)
+  end

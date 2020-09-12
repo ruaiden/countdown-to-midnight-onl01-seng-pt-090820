@@ -1,8 +1,5 @@
 #write your code here
-def countdown_while_sleep(countdown)
-    sleep(5)
-  end
-  
+
 def countdown (count)
   while count > 0 
     puts "#{count} SECOND(S)!"
@@ -12,4 +9,6 @@ def countdown (count)
     "HAPPY NEW YEAR!"
 end
   
-  
+  def countdown_while_sleep(countdown)
+    sleep(5)
+  end
